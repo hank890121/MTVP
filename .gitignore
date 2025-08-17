@@ -1,0 +1,10 @@
+__pycache__/
+*.pth
+*.pt
+*.ckpt
+inference/image/
+inference/image_output/
+runs/
+data/BDD100k/
+data/CULane/
+data/requirements.txt

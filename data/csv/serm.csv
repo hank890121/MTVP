@@ -1,0 +1,26 @@
+name,abbr,r,g,b
+background,BG,0,0,0
+box junction,BJ,0,0,0
+crosswalk,CW,255,0,255
+stop line,SL,255,0,0
+solid single white,SSW,128,128,128
+solid single yellow,SSY,11,255,255
+solid single red,SSR,11,255,255
+solid double white,SDW,128,128,128
+solid double yellow,SDY,8,0,255
+dashed single white,DSW,210,210,210
+dashed single yellow,DSY,11,255,255
+left arrow,LA,255,192,64
+straight arrow,SA,0,128,255
+right arrow,RA,255,128,0
+left straight arrow,LSA,128,0,255
+right straight arrow,RSA,64,0,255
+channelizing line,CL,0,0,0
+motor prohibited,MP,0,0,0
+slow,SLOW,0,0,0
+motor priority lane,MPL,0,0,0
+motor waiting zone,MWZ,0,0,0
+left turn box,LTB,0,0,0
+motor icon,MI,0,0,0
+bike icon,BI,0,0,0
+parking lot,PL,0,0,0

@@ -1,0 +1,14 @@
+{
+    "category_csv": "data/csv/rlmd.csv",
+    "datasets": [
+        ["clear", "data/RLMD/val"]
+    ],
+    "logdir": "logs/rlmd/clear_to_mix",
+    "batch_size": 8,
+    "image_scale": [1080, 1920],
+    "crop_size": [512, 512],
+    "stride": [384, 384],
+    "seed": 0,
+    "num_workers": 8,
+    "pin_memory": true
+}
