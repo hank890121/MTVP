@@ -25,7 +25,7 @@ Download the datasets form following links:
 
 BDD100K: [images](https://bdd-data.berkeley.edu/), [det_annot](https://drive.google.com/file/d/1d5osZ83rLwda7mfT3zdgljDiQO3f9B5M/view), [da_seg_annot](https://drive.google.com/file/d/1yNYLtZ5GVscx7RzpOd8hS7Mh7Rs6l3Z3/view), [ll_seg_annot](https://drive.google.com/file/d/1BPsyAjikEM9fqsVNMIygvdVVPrmK1ot-/view)
 
-SeRM: [images & annotations](https://drive.google.com/drive/folders/14w4zUYYD1pTwVQbDdDBBct6UKWybnn9s?usp=sharing)
+SeRM: Follow the instructions on the [site](https://drive.google.com/drive/folders/14w4zUYYD1pTwVQbDdDBBct6UKWybnn9s?usp=sharing) to submit a request.
 
 VIL-100: [images & annotations](https://drive.google.com/drive/folders/178_SSeQ4M1hI3BrTonhiTrpOWTEAenLE)
 
@@ -60,7 +60,9 @@ The dataset directory structure will be the following:
        └─ Json
 ```
 
-## Training
+## Usage
+
+### Training
 
 ```shell
 python tools/train.py
@@ -68,13 +70,13 @@ python tools/train.py
 
 You can modify the parameters from `./lib/config/default.py`
 
-## Evaluation
+### Evaluation
 
 ```shell
 python tools/test.py --weights weights/epoch-195.pth
 ```
 
-## Demo
+### Demo
 
 You can store the image or video in `--source`, and then save the reasoning result to `--save-dir`
 
