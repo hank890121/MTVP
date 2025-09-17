@@ -2,8 +2,6 @@
 <h1> Multi-Task Visual Perception Incorporated with Temporal Feature </h1>
 </div>
 
-<img src="./resources/Architecture.png">
-
 ## Introduction
 
 With the rapid development of autonomous driving technology, accurate scene perception has become essential for safe and efficient navigation. Key perception tasks such as lane detection, semantic segmentation of road markings and road area, and object detection directly impact vehicle decision-making and obstacle avoidance. However, most existing methods are trained on single-task datasets, limiting data diversity and reducing performance in complex scenarios such as occlusion or lighting variation.This paper proposes a multi-task perception system based on consecutive video frames, integrating lane detection, road marking and road area segmentation, and object detection into a unified framework. The system employs multi-task learning to share features and improve computational efficiency, and adopts cross-dataset training to enhance generalization across tasks. Additionally, temporal information from adjacent frames is leveraged to compensate for visual degradation in the current frame.Experimental results on multiple public datasets demonstrate that the proposed method achieves competitive or superior performance in all three tasks. Visualization further shows improved segmentation results under challenging conditions, validating the system’s effectiveness in task integration.
